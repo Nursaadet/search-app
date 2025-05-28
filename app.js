@@ -14,7 +14,7 @@ function runEventListeners() {
 
 function clear(){
     searchInput.value="";
-    Array.from(imageListWrapper.children).forEach((child)=> child.remove())
+    imageListWrapper.innerHTML="";
 }
 
 function search(e) {
